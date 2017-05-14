@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Controller"/>
+	<classpathentry kind="src" path="Model"/>
+	<classpathentry kind="src" path="View"/>
+	<classpathentry kind="src" path="Logs"/>
+	<classpathentry kind="src" path="Report"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/extentreports-3.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/image-comparison-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/jcommander-1.27.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/selenium-server-standalone-3.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Setup/BlackPearlGitRepository/BlackPearl/JarLibrary/testng-6.11.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
