@@ -10,6 +10,8 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class Main {
 
@@ -21,7 +23,7 @@ public class Main {
 	static final Logger Log = Logger.getLogger(Main.class.getName());
 	static WebDriver webDriver = null;
 
-	static final String filePath = "D:\\Automation Setup\\Project\\BlackPearl\\Logs\\log4j.properties";
+	static final String filePath = "D:\\Automation Setup\\BlackPearlGitRepository\\BlackPearl\\Logs\\log4j.properties";
 
 	static {
 
@@ -48,7 +50,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-
+			
+			FirefoxProfile profile = new FirefoxProfile();
+			profile.setAssumeUntrustedCertificateIssuer(true);
+			profile.setAcceptUntrustedCertificates(true);
+			
+			FirefoxDriver driver = new FirefoxDriver();
+			
+			System.setProperty("webdriver.gecko.driver", "D:\\Automation Setup\\BlackPearlGitRepository\\BlackPearl\\Resources\\Driver\\geckodriver.exe");
+			driver.get("http://www.google.com");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		} finally {
